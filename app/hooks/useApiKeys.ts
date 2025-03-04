@@ -95,7 +95,7 @@ export default function useApiKeys() {
 
   useEffect(() => {
     fetchApiKeys();
-  }, []);
+  }, [fetchApiKeys]);
 
   return {
     apiKeys,
